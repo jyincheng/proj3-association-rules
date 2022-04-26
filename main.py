@@ -100,25 +100,26 @@ while Lk:
 associate_rules_list = []
 for combo in items_to_support:
     # ignore when combo have only one element
-    if len(combo) < 1:
+    if len(combo) <= 1:
         continue
 
-    for length in range(1, len(combo)):
-        combines = list(combinations(combo, length))
-        # print("combinations:", combines)
-        for combine in combines:
-            lhs = set(combine)
-            rhs = set(combo).difference(lhs)
-            lhs = tuple(lhs)
-            rhs = tuple(rhs)
-            lhs_and_rhs = combo
+    # rules should have exactly one item on RHS
+    combines = list(combinations(combo, len(combo)-1))
+    # print("combinations:", combines)
+    for combine in combines:
+        lhs = set(combine)
+        rhs = set(combo).difference(lhs)
+        lhs = tuple(lhs)
+        rhs = tuple(rhs)
+        lhs_and_rhs = combo
 
-            # print("lhs:", lhs)
-            # print("rhs:", rhs)
+        # print("lhs:", lhs)
+        # print("rhs:", rhs)
+        # print(lhs_and_rhs)
 
-            confidence = items_to_support[lhs_and_rhs]/items_to_support[lhs]
-            if confidence >= MIN_CONFIDENCE:
-                  associate_rules_list.append([f'{lhs} -> {rhs}', round(confidence, 4)])
+        confidence = items_to_support[lhs_and_rhs]/items_to_support[lhs]
+        if confidence >= MIN_CONFIDENCE:
+                associate_rules_list.append([f'{lhs} -> {rhs}', round(confidence, 4)])
 
 # print out association result
 associate_rules_list.sort(key=lambda x: x[1], reverse=True)
