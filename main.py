@@ -2,20 +2,25 @@ import csv
 from itertools import combinations, chain
 
 # read csv file
-rows = []
-row_sets = []
-with open("INTEGRATED-DATASET2.csv", 'r') as file:
+rows = []        # list of list
+row_sets = []    # list of set
+with open("INTEGRATED-DATASET.csv", 'r') as file:
     csvreader = csv.reader(file)
+    included_cols = [0, 3, 4, 5]
     header = next(csvreader)
     for row in csvreader:
-        rows.append(row)
-        row_sets.append(set(row))
+        content = list(row[i] for i in included_cols)
+        print(len(content))
+        rows.append(content)
+        row_sets.append(set(content))
 print("size of rows:", len(rows))
 print("size of row_sets:", len(row_sets))
 
 # variables
 MIN_SUPPROT = 0.01
-MIN_CONFIDENCE = 0.3
+MIN_CONFIDENCE = 0.6
+
+# {items: support val}
 items_to_support = dict()
 
 def create_next_candidates(prev_candidates, length):
@@ -46,7 +51,7 @@ def create_next_candidates(prev_candidates, length):
     ]
     return next_candidates
 
-k = 1
+# find all distinct items from dataset
 items = set()
 for i in range(len(rows)):
     for j in range(len(rows[i])):
@@ -54,13 +59,14 @@ for i in range(len(rows)):
 
 print("size of items:", len(items))
 
+# construct large 1-itemsets
 L1 = []
-cnt = 0
 for item in sorted(items):
+    cnt = 0
     for row_set in row_sets:
         if item in row_set:
             cnt += 1
-    support = cnt/len(row_sets)
+    support = round(cnt/len(row_sets), 4)
     # print(item, support)
     if support >= MIN_SUPPROT:
         item = tuple([item])
@@ -69,12 +75,17 @@ for item in sorted(items):
 
 print(f'size of initial large itemsets: {len(L1)}')
 
+# initialization
+k = 1
 Lk = list(L1)
+
+print()
 
 # Apriori
 while Lk:
     print("k:", k)
     print("size of Lk:", len(Lk))
+    # print(Lk)
     next_Ck = create_next_candidates(Lk, k+1)
     print("size of next_Ck:", len(next_Ck))
     
@@ -84,7 +95,7 @@ while Lk:
         for row_set in row_sets:
             if candidate.issubset(row_set):
                 cnt += 1
-        support = round(cnt/len(rows), 4)
+        support = round(cnt/len(row_sets), 4)
 
         if support > MIN_SUPPROT:
             candidate = tuple(sorted(candidate))
@@ -96,6 +107,7 @@ while Lk:
     print("size of next_Lk:", len(Lk))
     print()
 
+print()
 # find rules above min confidence
 associate_rules_list = []
 for combo in items_to_support:
@@ -109,8 +121,8 @@ for combo in items_to_support:
     for combine in combines:
         lhs = set(combine)
         rhs = set(combo).difference(lhs)
-        lhs = tuple(lhs)
-        rhs = tuple(rhs)
+        lhs = tuple(sorted(lhs))
+        rhs = tuple(sorted(rhs))
         lhs_and_rhs = combo
 
         # print("lhs:", lhs)
@@ -118,6 +130,12 @@ for combo in items_to_support:
         # print(lhs_and_rhs)
 
         confidence = items_to_support[lhs_and_rhs]/items_to_support[lhs]
+        if confidence > 1:
+            print(confidence)
+            print(lhs_and_rhs)
+            print(items_to_support[lhs_and_rhs])
+            print(lhs)
+            print(items_to_support[lhs])
         if confidence >= MIN_CONFIDENCE:
                 associate_rules_list.append([f'{lhs} -> {rhs}', round(confidence, 4)])
 
