@@ -165,7 +165,7 @@ def print_associate_rules(associate_rules, MIN_SUPPORT, MIN_CONFIDENCE):
 
 
 def output_example_txt(items_to_support, associate_rules, MIN_SUPPROT, MIN_CONFIDENCE):
-    with open('readme.txt', 'w') as f:
+    with open('example-run.txt', 'w') as f:
         items_to_support_list = [[items, support] for items, support in items_to_support.items()]
         items_to_support_list.sort(key=lambda x: x[1], reverse=True)
         f.write(f'==Frequent itemsets (min_sup={MIN_SUPPROT*100}%)')

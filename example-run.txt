@@ -1,0 +1,160 @@
+==Frequent itemsets (min_sup=1.0%)('Religion/Religious Practice',): 50.46%
+('ANTI-JEWISH',): 45.68%
+('ANTI-JEWISH', 'Religion/Religious Practice'): 45.52%
+('NEW YORK',): 35.65%
+('KINGS',): 34.03%
+('Race/Color',): 26.85%
+('AGGRAVATED HARASSMENT 1',): 24.31%
+('KINGS', 'Religion/Religious Practice'): 21.37%
+('AGGRAVATED HARASSMENT 1', 'Religion/Religious Practice'): 20.68%
+('AGGRAVATED HARASSMENT 1', 'ANTI-JEWISH'): 20.52%
+('ANTI-JEWISH', 'KINGS'): 19.91%
+('QUEENS',): 18.13%
+('CRIMINAL MISCHIEF 4TH, GRAFFIT',): 16.2%
+('NEW YORK', 'Religion/Religious Practice'): 14.43%
+('ASSAULT 3',): 14.2%
+('Sexual Orientation',): 14.12%
+('ANTI-ASIAN',): 13.73%
+('ANTI-ASIAN', 'Race/Color'): 13.73%
+('ANTI-JEWISH', 'NEW YORK'): 13.5%
+('AGGRAVATED HARASSMENT 2',): 12.65%
+('ANTI-MALE HOMOSEXUAL (GAY)',): 12.19%
+('NEW YORK', 'Race/Color'): 12.19%
+('ANTI-MALE HOMOSEXUAL (GAY)', 'Sexual Orientation'): 12.11%
+('ASSAULT 2,1,UNCLASSIFIED',): 11.27%
+('AGGRAVATED HARASSMENT 1', 'KINGS'): 9.18%
+('ANTI-BLACK',): 8.8%
+('CRIMINAL MISCHIEF 4TH, GRAFFIT', 'Religion/Religious Practice'): 8.72%
+('QUEENS', 'Religion/Religious Practice'): 8.64%
+('ANTI-BLACK', 'Race/Color'): 8.56%
+('BRONX',): 8.49%
+('AGGRAVATED HARASSMENT 1', 'NEW YORK'): 8.26%
+('ANTI-JEWISH', 'CRIMINAL MISCHIEF 4TH, GRAFFIT'): 7.95%
+('ANTI-ASIAN', 'NEW YORK'): 7.64%
+('ANTI-JEWISH', 'QUEENS'): 6.94%
+('NEW YORK', 'Sexual Orientation'): 6.64%
+('AGGRAVATED HARASSMENT 2', 'NEW YORK'): 6.1%
+('KINGS', 'Race/Color'): 6.1%
+('ASSAULT 3', 'Race/Color'): 5.79%
+('AGGRAVATED HARASSMENT 2', 'Religion/Religious Practice'): 5.4%
+('ANTI-MALE HOMOSEXUAL (GAY)', 'NEW YORK'): 5.4%
+('CRIMINAL MISCHIEF 4TH, GRAFFIT', 'NEW YORK'): 5.4%
+('ASSAULT 3', 'NEW YORK'): 5.25%
+('ASSAULT 2,1,UNCLASSIFIED', 'NEW YORK'): 4.94%
+('QUEENS', 'Race/Color'): 4.94%
+('ASSAULT 3', 'KINGS'): 4.86%
+('CRIMINAL MISCHIEF 4TH, GRAFFIT', 'Race/Color'): 4.86%
+('CRIMINAL MISCHIEF 4TH, GRAFFIT', 'KINGS'): 4.78%
+('ASSAULT 2,1,UNCLASSIFIED', 'Race/Color'): 4.71%
+('AGGRAVATED HARASSMENT 2', 'ANTI-JEWISH'): 4.63%
+('AGGRAVATED HARASSMENT 2', 'Race/Color'): 4.55%
+('BRONX', 'Religion/Religious Practice'): 4.55%
+('ANTI-WHITE',): 4.32%
+('ANTI-WHITE', 'Race/Color'): 4.32%
+('Gender',): 4.24%
+('AGGRAVATED HARASSMENT 1', 'QUEENS'): 4.24%
+('AGGRAVATED HARASSMENT 2', 'KINGS'): 4.01%
+('ANTI-JEWISH', 'BRONX'): 3.94%
+('Ethnicity/National Origin/Ancestry',): 3.7%
+('RICHMOND',): 3.7%
+('ANTI-ASIAN', 'ASSAULT 3'): 3.7%
+('ASSAULT 3', 'Sexual Orientation'): 3.7%
+('KINGS', 'Sexual Orientation'): 3.7%
+('ANTI-BLACK', 'CRIMINAL MISCHIEF 4TH, GRAFFIT'): 3.47%
+('CRIMINAL MISCHIEF 4TH, GRAFFIT', 'QUEENS'): 3.47%
+('MENACING,UNCLASSIFIED',): 3.4%
+('ANTI-MALE HOMOSEXUAL (GAY)', 'KINGS'): 3.4%
+('ANTI-MALE HOMOSEXUAL (GAY)', 'ASSAULT 3'): 3.32%
+('ASSAULT 2,1,UNCLASSIFIED', 'KINGS'): 3.16%
+('AGGRAVATED HARASSMENT 2', 'ANTI-ASIAN'): 2.85%
+('ASSAULT 2,1,UNCLASSIFIED', 'Sexual Orientation'): 2.85%
+('ANTI-ASIAN', 'ASSAULT 2,1,UNCLASSIFIED'): 2.78%
+('ANTI-ASIAN', 'KINGS'): 2.78%
+('ANTI-TRANSGENDER',): 2.7%
+('ANTI-TRANSGENDER', 'Gender'): 2.7%
+('CRIMINAL MISCHIEF,UNCLASSIFIED 4',): 2.62%
+('MISCHIEF,CRIMINAL,    UNCL 2ND',): 2.62%
+('ANTI-BLACK', 'KINGS'): 2.55%
+('ASSAULT 3', 'QUEENS'): 2.55%
+('ANTI-ASIAN', 'QUEENS'): 2.47%
+('ANTI-MUSLIM',): 2.39%
+('ANTI-BLACK', 'NEW YORK'): 2.39%
+('ANTI-MUSLIM', 'Religion/Religious Practice'): 2.39%
+('ANTI-MALE HOMOSEXUAL (GAY)', 'ASSAULT 2,1,UNCLASSIFIED'): 2.31%
+('QUEENS', 'Sexual Orientation'): 2.24%
+('ANTI-MALE HOMOSEXUAL (GAY)', 'QUEENS'): 2.16%
+('ASSAULT 2,1,UNCLASSIFIED', 'Religion/Religious Practice'): 2.16%
+('ASSAULT 3', 'Religion/Religious Practice'): 2.16%
+('MISCHIEF,CRIMINAL,    UNCL 2ND', 'Religion/Religious Practice'): 2.16%
+('AGGRAVATED HARASSMENT 2', 'QUEENS'): 2.01%
+('ANTI-WHITE', 'NEW YORK'): 2.01%
+('CRIMINAL MIS 2 & 3',): 1.93%
+('AGGRAVATED HARASSMENT 1', 'Race/Color'): 1.93%
+('ASSAULT 3', 'Gender'): 1.93%
+('BRONX', 'Race/Color'): 1.93%
+('ANTI-CATHOLIC',): 1.85%
+('AGGRAVATED HARASSMENT 1', 'BRONX'): 1.85%
+('AGGRAVATED HARASSMENT 2', 'Sexual Orientation'): 1.85%
+('ANTI-BLACK', 'QUEENS'): 1.85%
+('ANTI-CATHOLIC', 'Religion/Religious Practice'): 1.85%
+('Gender', 'KINGS'): 1.85%
+('ANTI-OTHER ETHNICITY',): 1.7%
+('ANTI-JEWISH', 'ASSAULT 2,1,UNCLASSIFIED'): 1.7%
+('ANTI-JEWISH', 'ASSAULT 3'): 1.7%
+('ANTI-OTHER ETHNICITY', 'Ethnicity/National Origin/Ancestry'): 1.7%
+('ASSAULT 2,1,UNCLASSIFIED', 'QUEENS'): 1.7%
+('CRIMINAL MISCHIEF,UNCLASSIFIED 4', 'Religion/Religious Practice'): 1.7%
+('RICHMOND', 'Race/Color'): 1.7%
+('ANTI-JEWISH', 'CRIMINAL MISCHIEF,UNCLASSIFIED 4'): 1.62%
+('AGGRAVATED HARASSMENT 2', 'ANTI-MALE HOMOSEXUAL (GAY)'): 1.54%
+('ANTI-WHITE', 'ASSAULT 3'): 1.54%
+('BRONX', 'CRIMINAL MISCHIEF 4TH, GRAFFIT'): 1.54%
+('ANTI-HISPANIC',): 1.47%
+('ANTI-HISPANIC', 'Ethnicity/National Origin/Ancestry'): 1.47%
+('RICHMOND', 'Religion/Religious Practice'): 1.47%
+('AGGRAVATED HARASSMENT 2', 'ANTI-BLACK'): 1.39%
+('ANTI-JEWISH', 'RICHMOND'): 1.39%
+('MENACING,UNCLASSIFIED', 'NEW YORK'): 1.39%
+('ANTI-BLACK', 'RICHMOND'): 1.31%
+('BRONX', 'Sexual Orientation'): 1.31%
+('CRIMINAL MISCHIEF 4TH, GRAFFIT', 'Sexual Orientation'): 1.31%
+('Ethnicity/National Origin/Ancestry', 'NEW YORK'): 1.31%
+('Gender', 'QUEENS'): 1.31%
+('ASSAULT 2,1,UNCLASSIFIED', 'BRONX'): 1.23%
+('MENACING,UNCLASSIFIED', 'Race/Color'): 1.23%
+('ANTI-FEMALE HOMOSEXUAL (LESBIAN)',): 1.16%
+('ANTI-FEMALE HOMOSEXUAL (LESBIAN)', 'Sexual Orientation'): 1.16%
+('ANTI-JEWISH', 'MISCHIEF,CRIMINAL,    UNCL 2ND'): 1.16%
+('ANTI-MALE HOMOSEXUAL (GAY)', 'CRIMINAL MISCHIEF 4TH, GRAFFIT'): 1.16%
+('ANTI-TRANSGENDER', 'QUEENS'): 1.16%
+('ANTI-WHITE', 'ASSAULT 2,1,UNCLASSIFIED'): 1.16%
+('CRIMINAL MIS 2 & 3', 'Religion/Religious Practice'): 1.16%
+('ANTI-FEMALE',): 1.08%
+('AGGRAVATED HARASSMENT 1', 'ANTI-BLACK'): 1.08%
+('ANTI-FEMALE', 'Gender'): 1.08%
+('ANTI-FEMALE', 'KINGS'): 1.08%
+('CRIMINAL MISCHIEF 4TH, GRAFFIT', 'Ethnicity/National Origin/Ancestry'): 1.08%
+('ROBBERY,OPEN AREA UNCLASSIFIED',): 1.0%
+==High-confidence association rules (min_conf=60.0%)('ANTI-ASIAN',) -> ('Race/Color',): 100.0%
+('ANTI-CATHOLIC',) -> ('Religion/Religious Practice',): 100.0%
+('ANTI-FEMALE',) -> ('Gender',): 100.0%
+('ANTI-FEMALE',) -> ('KINGS',): 100.0%
+('ANTI-FEMALE HOMOSEXUAL (LESBIAN)',) -> ('Sexual Orientation',): 100.0%
+('ANTI-HISPANIC',) -> ('Ethnicity/National Origin/Ancestry',): 100.0%
+('ANTI-MUSLIM',) -> ('Religion/Religious Practice',): 100.0%
+('ANTI-OTHER ETHNICITY',) -> ('Ethnicity/National Origin/Ancestry',): 100.0%
+('ANTI-TRANSGENDER',) -> ('Gender',): 100.0%
+('ANTI-WHITE',) -> ('Race/Color',): 100.0%
+('ANTI-JEWISH',) -> ('Religion/Religious Practice',): 99.65%
+('ANTI-MALE HOMOSEXUAL (GAY)',) -> ('Sexual Orientation',): 99.34%
+('ANTI-BLACK',) -> ('Race/Color',): 97.27%
+('Religion/Religious Practice',) -> ('ANTI-JEWISH',): 90.21%
+('Sexual Orientation',) -> ('ANTI-MALE HOMOSEXUAL (GAY)',): 85.76%
+('AGGRAVATED HARASSMENT 1',) -> ('Religion/Religious Practice',): 85.07%
+('AGGRAVATED HARASSMENT 1',) -> ('ANTI-JEWISH',): 84.41%
+('MISCHIEF,CRIMINAL,    UNCL 2ND',) -> ('Religion/Religious Practice',): 82.44%
+('CRIMINAL MISCHIEF,UNCLASSIFIED 4',) -> ('Religion/Religious Practice',): 64.89%
+('Gender',) -> ('ANTI-TRANSGENDER',): 63.68%
+('KINGS',) -> ('Religion/Religious Practice',): 62.8%
+('CRIMINAL MISCHIEF,UNCLASSIFIED 4',) -> ('ANTI-JEWISH',): 61.83%
+('CRIMINAL MIS 2 & 3',) -> ('Religion/Religious Practice',): 60.1%
