@@ -16,7 +16,7 @@
 
 ## Executing Instruction
 
-Unpack proj2.tar.gz in local.
+Unpack proj3.tar.gz in local.
 
 ```
 tar -xzvf proj3.tar.gz
