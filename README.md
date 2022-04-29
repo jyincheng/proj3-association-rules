@@ -78,7 +78,7 @@ python3 main.py
 
 
 ## Result
-
+.. to be done ..
 
 
 ## Google Crendential
@@ -86,5 +86,4 @@ python3 main.py
 * ENGINE_ID = "a726fb79aeb1e8c10"
 
 ## Reference
-* [spacy.io](https://spacy.io/usage/linguistic-features#named-entities)
-* [spaCy-SpanBERT: Relation Extraction from Web Documents](https://github.com/gkaramanolakis/SpacySpanBERT)
+* 
